@@ -1,0 +1,27 @@
+# Maven
+target/
+
+# Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# Spring Initializr
+HELP.md
+
+# Eclipse / STS
+.settings/
+.project
+.classpath
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
