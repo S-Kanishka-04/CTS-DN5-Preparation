@@ -1,0 +1,48 @@
+# Build output
+target/
+build/
+bin/
+out/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# Spring Initializr
+HELP.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Ignore only the Maven Wrapper JAR
+.mvn/wrapper/maven-wrapper.jar
+
+# Keep build folders inside src (if any)
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
