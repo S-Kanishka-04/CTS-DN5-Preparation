@@ -1,0 +1,11 @@
+.container{
+    display:flex;
+    justify-content:space-around;
+    margin-top:40px;
+}
+
+.box{
+    border-left:4px solid green;
+    padding:20px;
+    width:30%;
+}
