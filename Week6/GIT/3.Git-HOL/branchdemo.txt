@@ -1,1 +1,2 @@
 This file was created in the main branch.
+This line was added in GitNewBranch.
