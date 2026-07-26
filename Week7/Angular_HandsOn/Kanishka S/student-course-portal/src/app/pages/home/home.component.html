@@ -1,0 +1,21 @@
+<h1>{{ portalName }}</h1>
+<p>Welcome back! Browse your courses, check your profile, and manage enrollments all in one place.</p>
+
+<div class="stats-row">
+  <div class="stat"><span class="stat-value">{{ coursesAvailable }}</span><span>Courses Available</span></div>
+  <div class="stat"><span class="stat-value">{{ enrolledCount }}</span><span>Enrolled</span></div>
+  <div class="stat"><span class="stat-value">{{ gpa }}</span><span>GPA</span></div>
+</div>
+
+<button type="button" [disabled]="!isPortalActive" (click)="onEnrollClick()">Enroll Now</button>
+@if (message) {
+  <p class="message">{{ message }}</p>
+}
+
+<div class="search-box">
+  <label for="search">Search courses</label>
+  <input id="search" name="search" [(ngModel)]="searchTerm" placeholder="e.g. Angular" />
+  <p>Searching for: {{ searchTerm }}</p>
+</div>
+
+<app-course-summary-widget></app-course-summary-widget>

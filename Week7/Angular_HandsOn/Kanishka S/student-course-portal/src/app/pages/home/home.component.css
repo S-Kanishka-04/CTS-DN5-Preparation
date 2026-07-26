@@ -1,0 +1,20 @@
+.stats-row {
+  display: flex;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+.stat {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem 1.25rem;
+  background: #f1f5f9;
+  border-radius: 8px;
+  min-width: 120px;
+}
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.message { color: #16a34a; font-weight: 600; }
+.search-box { margin: 1.5rem 0; }
+.search-box input { padding: 0.4rem 0.6rem; margin-right: 0.5rem; }

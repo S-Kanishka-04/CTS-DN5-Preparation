@@ -1,0 +1,137 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Data Structures",
+      "code": "CS101",
+      "credits": 4,
+      "gradeStatus": "passed"
+    },
+    {
+      "id": 2,
+      "name": "Angular Fundamentals",
+      "code": "WD201",
+      "credits": 3,
+      "gradeStatus": "pending"
+    },
+    {
+      "id": 3,
+      "name": "Database Systems",
+      "code": "CS210",
+      "credits": 4,
+      "gradeStatus": "failed"
+    },
+    {
+      "id": 4,
+      "name": "Operating Systems",
+      "code": "CS220",
+      "credits": 3,
+      "gradeStatus": "pending"
+    },
+    {
+      "id": 5,
+      "name": "Software Engineering",
+      "code": "SE301",
+      "credits": 3,
+      "gradeStatus": "passed"
+    },
+    {
+      "name": "Enrollment request: Ashwin T",
+      "code": "REQ-1",
+      "credits": 0,
+      "gradeStatus": "pending",
+      "id": 6
+    },
+    {
+      "name": "Enrollment request: Ashwin T",
+      "code": "REQ-2",
+      "credits": 0,
+      "gradeStatus": "pending",
+      "id": 7
+    },
+    {
+      "name": "Enrollment request: Ashwin",
+      "code": "REQ-2",
+      "credits": 0,
+      "gradeStatus": "pending",
+      "id": 8
+    },
+    {
+      "name": "Enrollment request: ashwin",
+      "code": "REQ-2",
+      "credits": 0,
+      "gradeStatus": "pending",
+      "id": 9
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Ashwin T",
+      "email": "ashwin.t@example.com",
+      "gpa": 3.8,
+      "enrolledCourseIds": [
+        1,
+        2
+      ]
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "courseId": 1,
+      "semester": "Odd"
+    },
+    {
+      "id": 2,
+      "studentId": 1,
+      "courseId": 2,
+      "semester": "Even"
+    }
+  ],
+  "students-by-course": [
+    {
+      "id": 1,
+      "students": [
+        {
+          "id": 1,
+          "name": "Ashwin T",
+          "email": "ashwin.t@example.com",
+          "gpa": 3.8,
+          "enrolledCourseIds": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "students": [
+        {
+          "id": 1,
+          "name": "Ashwin T",
+          "email": "ashwin.t@example.com",
+          "gpa": 3.8,
+          "enrolledCourseIds": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "students": []
+    },
+    {
+      "id": 4,
+      "students": []
+    },
+    {
+      "id": 5,
+      "students": []
+    }
+  ]
+}
